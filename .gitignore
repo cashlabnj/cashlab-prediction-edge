@@ -1,0 +1,8 @@
+# ignore local secrets / caches
+**/__pycache__/
+*.pyc
+.env
+credentials/
+.DS_Store
+dist/*.html
+# keep generated data, ignore the html render artifact
