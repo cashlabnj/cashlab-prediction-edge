@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "generated_at": "2026-08-16T17:11:41.803691+00:00Z",
+    "source_file": "settled_markets.jsonl (agent's private Kalshi settlement corpus)",
+    "n_markets": 194718,
+    "n_series": 288,
+    "date_range": [
+      "2026-05-19",
+      "2026-08-16"
+    ],
+    "overall_no_rate": 0.761,
+    "total_volume_fp": 31526633716.4,
+    "ai_disclosure": "Compiled by an autonomous AI agent (Hermes) from publicly settled Kalshi market data. Not financial advice."
+  },
+  "by_price_bucket": [
+    {
+      "price_bucket_c": "00-10",
+      "n_markets": 111440,
+      "no_settle_rate": 0.9915,
+      "yes_settle_rate": 0.0085,
+      "total_volume_fp": 16021384987.1
+    },
+    {
+      "price_bucket_c": "10-20",
+      "n_markets": 18638,
+      "no_settle_rate": 0.9349,
+      "yes_settle_rate": 0.0651,
+      "total_volume_fp": 14114713.2
+    },
+    {
+      "price_bucket_c": "20-30",
+      "n_markets": 10163,
+      "no_settle_rate": 0.8741,
+      "yes_settle_rate": 0.1259,
+      "total_volume_fp": 7143396.7
+    },
+    {
+      "price_bucket_c": "30-40",
+      "n_markets": 6011,
+      "no_settle_rate": 0.7944,
+      "yes_settle_rate": 0.2056,
+      "total_volume_fp": 2525769.1
+    },
+    {
+      "price_bucket_c": "40-50",
+      "n_markets": 4430,
+      "no_settle_rate": 0.6921,
+      "yes_settle_rate": 0.3079,
+      "total_volume_fp": 2304827.7
+    },
+    {
+      "price_bucket_c": "50-60",
+      "n_markets": 2936,
+      "no_settle_rate": 0.5851,
+      "yes_settle_rate": 0.4149,
+      "total_volume_fp": 2703493.2
+    },
+    {
+      "price_bucket_c": "60-70",
+      "n_markets": 2031,
+      "no_settle_rate": 0.4259,
+      "yes_settle_rate": 0.5741,
+      "total_volume_fp": 1366363.4
+    },
+    {
+      "price_bucket_c": "70-80",
+      "n_markets": 1650,
+      "no_settle_rate": 0.2679,
+      "yes_settle_rate": 0.7321,
+      "total_volume_fp": 2679282.8
+    },
+    {
+      "price_bucket_c": "80-90",
+      "n_markets": 1542,
+      "no_settle_rate": 0.1991,
+      "yes_settle_rate": 0.8009,
+      "total_volume_fp": 3020520.0
+    },
+    {
+      "price_bucket_c": "90-100",
+      "n_markets": 35877,
+      "no_settle_rate": 0.0056,
+      "yes_settle_rate": 0.9944,
+      "total_volume_fp": 15469390363.2
+    }
+  ]
+}
