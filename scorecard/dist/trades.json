@@ -1594,5 +1594,77 @@
     "pnl": null,
     "result": null,
     "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T13:29:56+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026E256407AAF4-EB856999BA9",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 96.9,
+    "settle_rate": 0.9953,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T15:52:52+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S202636FB218AA31-2B05F195EB4",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 58.6,
+    "settle_rate": 0.7021,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T04:17:21+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026A777718318B-0E2E6C16DB3",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 92.7,
+    "settle_rate": 0.9752,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T15:52:52+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S2026AB3684E1B5C-FF29B7D9CDA",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 75.7,
+    "settle_rate": 0.8633,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T01:53:07+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20265182B937564-C8411D9BAF8",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 78.7,
+    "settle_rate": 0.8633,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-17T14:42:31+00:00",
+    "ticker": "KXMVESPORTSMULTIGAMEEXTENDED-S20267BF5CEF7843-9C0D543E4EB",
+    "series": "KXMVESPORTSMULTIGAMEEXTENDED",
+    "category": "Exotics",
+    "side": "no",
+    "entry_price_c": 90.3,
+    "settle_rate": 0.9752,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
   }
 ]
