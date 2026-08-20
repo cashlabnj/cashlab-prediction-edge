@@ -1738,5 +1738,101 @@
     "pnl": null,
     "result": null,
     "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T16:30:00+00:00",
+    "ticker": "KXMLBTB-26AUG191340ATLMIN-MINTLARNACH9-2",
+    "series": "KXMLBTB",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 69.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T18:58:58+00:00",
+    "ticker": "KXMLBHRR-26AUG191610AZBOS-BOSNSOGARD20-3",
+    "series": "KXMLBHRR",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 66.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T21:22:30+00:00",
+    "ticker": "KXMLBTB-26AUG191940ATHKC-ATHMMUNCY3-2",
+    "series": "KXMLBTB",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 67.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T21:22:30+00:00",
+    "ticker": "KXMLBHR-26AUG191835NYYBAL-NYYTGRISHAM12-1",
+    "series": "KXMLBHR",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 80.0,
+    "settle_rate": 0.9241,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T21:22:30+00:00",
+    "ticker": "KXMLBHR-26AUG191940ATHKC-ATHZGELOF20-1",
+    "series": "KXMLBHR",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 88.0,
+    "settle_rate": 0.9241,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T21:31:32+00:00",
+    "ticker": "KXMLBHRR-26AUG191835NYYBAL-BALJHOLLIDAY7-3",
+    "series": "KXMLBHRR",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 69.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-19T21:31:32+00:00",
+    "ticker": "KXMLBRBI-26AUG191940ATHKC-KCJCAGLIANONE14-2",
+    "series": "KXMLBRBI",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 81.0,
+    "settle_rate": 0.9241,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-20T03:33:48+00:00",
+    "ticker": "KXWNBASPREAD-26AUG19MINGS-MIN21",
+    "series": "KXWNBASPREAD",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 85.0,
+    "settle_rate": 0.9241,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
   }
 ]
