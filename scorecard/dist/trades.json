@@ -1966,5 +1966,101 @@
     "pnl": null,
     "result": null,
     "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T09:26:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG221335TORNYY-8",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T10:44:15+00:00",
+    "ticker": "KXMLBHR-26AUG221410ATLMIL-ATLMOLSON28-1",
+    "series": "KXMLBHR",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 75.0,
+    "settle_rate": 0.8824,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T22:52:01+00:00",
+    "ticker": "KXMLBTOTAL-26AUG221805STLPHI-11",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T09:37:07+00:00",
+    "ticker": "KXMLBKS-26AUG221915DETKC-KCMWACHA52-5",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T09:26:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG221905TBBAL-13",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 83.0,
+    "settle_rate": 0.9241,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T10:44:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG221905TBBAL-10",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 64.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T22:52:01+00:00",
+    "ticker": "KXMLBKS-26AUG221910NYMCWS-NYMCSCOTT45-7",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-22T11:52:37+00:00",
+    "ticker": "KXMLBKS-26AUG222010CINAZ-AZMSOROKA34-7",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
   }
 ]
