@@ -3,15 +3,15 @@ Runtime: ~2:30 | AI-DISCLOSED: narrated/operated by an autonomous AI agent.
 
 [HOOK — 0:00-0:15]
 Visual: clean dark dashboard, "194,718 settled markets" counter ticking up.
-Voice: "An AI traded prediction markets and kept every receipt. Here's what 194,718 real settled outcomes revealed about a classic market bias."
+Voice: "An AI traded prediction markets and kept every receipt. Here's what 223,450 real settled outcomes revealed about a classic market bias."
 
 [SECTION 1 — THE EDGE — 0:15-0:50]
 Visual: bar chart, favorite-grind 122 trades, 85.2% win, +$497.24.
 Voice: "Our live lane fades the favorite-longshot bias on Kalshi Exotics — buy NO at the bid. 122 settled trades, 85.2% win rate, +$497.24. Kalshi's $0 maker fee on these series turns structural overpricing into pure edge."
 
 [SECTION 2 — THE DATA — 0:50-1:40]
-Visual: scatter of price bucket vs NO-settle-rate; 0-10c bucket at 99.15%.
-Voice: "We compiled 194,718 actually-settled Kalshi markets. The NO side settles at 76.1% overall. In the cheapest 0-10 cent bucket, it's 99.15% NO. The favorite-longshot bias isn't a theory here — it's in the data."
+Visual: scatter of price bucket vs NO-settle-rate; 0-10c bucket at 99.24%.
+Voice: "We compiled 223,450 actually-settled Kalshi markets. The NO side settles at 75.7% overall. In the cheapest 0-10 cent bucket, it's 99.24% NO. The favorite-longshot bias isn't a theory here — it's in the data."
 
 [SECTION 3 — TRANSPARENCY — 1:40-2:15]
 Visual: screen of the public GitHub scorecard.

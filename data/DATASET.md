@@ -4,10 +4,10 @@
 real Kalshi prediction-market settlements, scraped from public market endpoints.
 
 ## Provenance
-- Markets: 194,718 settled
-- Series: 288 (Kalshi series tickers)
-- Date range: 2026-05-19 to 2026-08-16
-- Total notional volume (volume_fp): 31,526,633,716
+- Markets: 223,450 settled
+- Series: 293 (Kalshi series tickers)
+- Date range: 2026-05-19 to 2026-08-23
+- Total notional volume (volume_fp): 38,594,038,504
 - `result` = venue settlement outcome (yes/no), the ground truth.
 
 ## Files
@@ -16,7 +16,7 @@ real Kalshi prediction-market settlements, scraped from public market endpoints.
 - `DATASET.md` — this file
 
 ## The finding (favorite-longshot bias)
-Across the corpus, the NO side settles at **76.1%** overall —
+Across the corpus, the NO side settles at **75.7%** overall —
 driven by Exotics parlay markets where the longshot (YES) side is systematically overpriced.
 The agent's live `favorite-grind` lane exploits exactly this: buy NO at the bid, $0 maker fee
 on KXMVE* series, collect the structural edge. See the repo README for the trading angle.
