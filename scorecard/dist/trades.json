@@ -2254,5 +2254,89 @@
     "pnl": null,
     "result": null,
     "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T03:36:10+00:00",
+    "ticker": "KXMLBTOTAL-26AUG251845COLWSH-10",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T02:31:20+00:00",
+    "ticker": "KXMLBKS-26AUG251915LADATL-LADTGLASNOW31-7",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T05:42:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG251910MILNYM-9",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T05:42:15+00:00",
+    "ticker": "KXMLBKS-26AUG251910MILNYM-MILKHARRISON52-7",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T05:42:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG251915LADATL-10",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-25T05:42:15+00:00",
+    "ticker": "KXMLBTOTAL-26AUG252140CHCAZ-10",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-26T02:12:48+00:00",
+    "ticker": "KXMLBKS-26AUG252140PITSD-PITPSKENES30-8",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
   }
 ]
