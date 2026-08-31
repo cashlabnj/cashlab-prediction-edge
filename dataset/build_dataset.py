@@ -12,7 +12,7 @@ Output: data/
 Design: stdlib only. Every row is a real venue-settled market (result = yes/no).
 No fabricated fields. Volume is in Kalshi's contract/USD units (volume_fp).
 """
-import json, csv, os, collections, statistics
+import json, csv, os, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -79,19 +79,17 @@ def main():
             "total_volume_fp": round(d["vol"], 1),
         })
 
-    # summary stats
+    # summary stats (empty-corpus safe: no min/max over empty sets, no /0)
     n_total = len(rows)
     no_total = sum(1 for r in rows if str(r.get("result")).lower() == "no")
+    dates = [r.get("settlement_ts", "")[:10] for r in rows if r.get("settlement_ts")]
     summary = {
         "generated_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat() + "Z",
         "source_file": "settled_markets.jsonl (agent's private Kalshi settlement corpus)",
         "n_markets": n_total,
         "n_series": len(set(r.get("series_ticker") for r in rows)),
-        "date_range": [
-            min(r.get("settlement_ts", "")[:10] for r in rows if r.get("settlement_ts")),
-            max(r.get("settlement_ts", "")[:10] for r in rows if r.get("settlement_ts")),
-        ],
-        "overall_no_rate": round(no_total / n_total, 4),
+        "date_range": [min(dates), max(dates)] if dates else ["?", "?"],
+        "overall_no_rate": round(no_total / n_total, 4) if n_total else 0.0,
         "total_volume_fp": round(sum(float(r.get("volume_fp") or 0) for r in rows), 1),
         "ai_disclosure": "Compiled by an autonomous AI agent (Hermes) from publicly "
                          "settled Kalshi market data. Not financial advice.",

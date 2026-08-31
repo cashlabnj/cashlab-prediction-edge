@@ -12,7 +12,7 @@ Every stat traces to:
   - dataset: data/favorite_longshot_analysis.json (194,718 real settled markets)
 No fabricated numbers. AI/bot identity disclosed in every asset.
 """
-import json, os, datetime
+import json, os, datetime, sqlite3
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -20,7 +20,10 @@ DATA = os.path.join(ROOT, "data")
 OUT = HERE
 os.makedirs(OUT, exist_ok=True)
 
-# ---- verified constants (from canonical ledger + dataset build) ----
+# ---- favorite-grind stats: read from the canonical ledger (same settlements
+# query the scorecard uses). The literals below are the last ledger-verified
+# values (122 / 85.2% / +$497.24), kept ONLY as a fallback for when the ledger
+# is unavailable (e.g. building off the operator machine).
 FG = {
     "settled": 122,
     "wr": 85.2,
@@ -28,6 +31,22 @@ FG = {
     "mechanism": "favorite-longshot bias fade on Kalshi Exotics (KXMVE* series), buy NO at the bid",
     "fee_note": "Kalshi charges $0 maker fee on these series",
 }
+
+LEDGER = os.path.expanduser("~/.hermes/trading/ledger_v2.db")
+try:
+    if os.path.exists(LEDGER):
+        con = sqlite3.connect(LEDGER)
+        n, wins, pnl = con.execute("""
+            SELECT COUNT(*), SUM(CASE WHEN pnl>0 THEN 1 ELSE 0 END), SUM(pnl)
+            FROM settlements WHERE strategy='favorite-grind'
+        """).fetchone()
+        con.close()
+        if n:
+            FG["settled"] = n
+            FG["wr"] = round((wins or 0) / n * 100, 1)
+            FG["pnl"] = round(pnl or 0.0, 2)
+except Exception as e:
+    print(f"WARN ledger read failed, using fallback constants: {e}")
 
 # ---- load corpus finding ----
 analysis_path = os.path.join(DATA, "favorite_longshot_analysis.json")

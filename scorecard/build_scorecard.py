@@ -14,7 +14,7 @@ Output:
 
 Design: zero third-party deps (stdlib only) so it runs anywhere with python3.
 """
-import json, sqlite3, os, csv, html, datetime, statistics, hashlib
+import json, sqlite3, os, csv, html, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -40,8 +40,8 @@ def load_jsonl(path):
                 continue
             try:
                 out.append(json.loads(line))
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"WARN skipping malformed line in {path}: {e}")
     return out
 
 
@@ -52,6 +52,22 @@ def _ledger():
         return sqlite3.connect(LEDGER)
     except Exception:
         return None
+
+
+# Candidate per-settlement column names in ledger_v2.db. The settlements schema
+# is introspected at runtime (PRAGMA table_info) so this stays correct as the
+# ledger evolves; if the ledger grows differently-named stake/fee columns, add
+# the names here.
+_STAKE_COL_CANDIDATES = ("stake_usd", "stake", "notional_usd", "notional",
+                         "cost_usd", "risk_usd")
+_FEE_COL_CANDIDATES = ("fees_usd", "fee_usd", "fees", "fee")
+
+
+def _settlement_cols(cur):
+    try:
+        return {r[1] for r in cur.execute("PRAGMA table_info(settlements)")}
+    except Exception:
+        return set()
 
 
 def compute_favorite_grind():
@@ -119,16 +135,24 @@ def compute_corpus():
 
 
 def compute_ledger_lanes():
-    """Pull per-lane settlement counts + PnL from the canonical ledger."""
+    """Pull per-lane settlement counts, PnL, EV/trade, ROI and fees from the ledger."""
     if not os.path.exists(LEDGER):
         return []
     try:
         c = sqlite3.connect(LEDGER)
         cur = c.cursor()
-        cur.execute("""
+        cols = _settlement_cols(cur)
+        stake_col = next((k for k in _STAKE_COL_CANDIDATES if k in cols), None)
+        fee_col = next((k for k in _FEE_COL_CANDIDATES if k in cols), None)
+        extra = ""
+        if stake_col:
+            extra += f", SUM({stake_col})"
+        if fee_col:
+            extra += f", SUM({fee_col})"
+        cur.execute(f"""
             SELECT strategy, COUNT(*) n,
                    SUM(CASE WHEN pnl > 0 THEN 1 ELSE 0 END) wins,
-                   ROUND(SUM(pnl),2) pnl
+                   ROUND(SUM(pnl),2) pnl{extra}
             FROM settlements
             WHERE strategy IS NOT NULL AND strategy != ''
             GROUP BY strategy
@@ -136,22 +160,103 @@ def compute_ledger_lanes():
             LIMIT 15
         """)
         rows = []
-        for strat, n, wins, pnl in cur.fetchall():
+        for rec in cur.fetchall():
+            strat, n, wins, pnl = rec[0], rec[1], rec[2], rec[3]
+            i = 4
+            stake = rec[i] if stake_col else None
+            i += 1 if stake_col else 0
+            fees = rec[i] if fee_col else None
+            pnl = pnl or 0.0
             rows.append({
                 "strategy": strat, "n": n, "wins": wins or 0,
                 "wr_pct": round((wins or 0) / n * 100, 1) if n else 0,
-                "pnl_usd": round(pnl or 0, 2),
+                "pnl_usd": round(pnl, 2),
+                # EV per settled trade = average realized P&L. A high-win-rate
+                # lane with negative EV (e.g. kprops-live-grinder) shows up
+                # negative here, as it should.
+                "ev_usd": round(pnl / n, 4) if n else 0.0,
+                # ROI on notional, only if the ledger records per-trade stake.
+                # TODO: if the ledger has no stake column this stays None
+                # (rendered as '-') rather than inventing a notional figure.
+                "roi_pct": round(pnl / stake * 100, 2) if stake else None,
+                "fees_usd": round(fees, 2) if fees is not None else None,
             })
+        c.close()
         return rows
     except Exception as e:
         return [{"error": str(e)}]
+
+
+def load_fg_settled_pnl():
+    """Map ticker -> total settled P&L from the canonical ledger (favorite-grind).
+
+    favorite_grind_results.jsonl is the entry log (pnl=null there); the settled
+    truth is in the ledger. Returns {} if the ledger or a ticker column is
+    unavailable, so callers degrade to the old empty-pnl export.
+    """
+    out = {}
+    c = _ledger()
+    if c is None:
+        return out
+    try:
+        cur = c.cursor()
+        if "ticker" not in _settlement_cols(cur):
+            return out
+        cur.execute("""
+            SELECT ticker, ROUND(SUM(pnl),4)
+            FROM settlements
+            WHERE strategy='favorite-grind' AND ticker IS NOT NULL AND ticker != ''
+            GROUP BY ticker
+        """)
+        for ticker, pnl in cur.fetchall():
+            out[ticker] = pnl
+    except Exception as e:
+        print(f"WARN could not read ledger settlements for trades join: {e}")
+    finally:
+        c.close()
+    return out
+
+
+def compute_cash_usd():
+    """Latest Kalshi cash balance if the ledger snapshots one; None otherwise.
+
+    Looks for a balance-like table with a cash/balance column and takes the
+    most recent row. Returns None when no such table exists so the caller can
+    fall back to the last operator-verified figure.
+    """
+    c = _ledger()
+    if c is None:
+        return None
+    try:
+        tables = {r[0] for r in c.execute(
+            "SELECT name FROM sqlite_master WHERE type='table'")}
+        for t in ("balances", "balance", "account_balance", "account"):
+            if t not in tables:
+                continue
+            cols = {r[1] for r in c.execute(f"PRAGMA table_info({t})")}
+            col = next((k for k in ("cash_usd", "cash", "balance_usd", "balance")
+                        if k in cols), None)
+            if not col:
+                continue
+            row = c.execute(
+                f"SELECT {col} FROM {t} ORDER BY rowid DESC LIMIT 1").fetchone()
+            if row and row[0] is not None:
+                return round(float(row[0]), 2)
+        return None
+    except Exception:
+        return None
+    finally:
+        c.close()
 
 
 def compute_kprops_paper():
     """kprops-live-grinder paper stats from the canonical ledger."""
     c = _ledger()
     if c is None:
-        return {"lane": "kprops-live-grinder", "error": "ledger missing"}
+        return {"lane": "kprops-live-grinder", "mode": "PAPER",
+                "n_settled": 0, "wins": 0, "wr_pct": 0.0, "pnl_usd": 0.0,
+                "source": "ledger_v2.db (MISSING)",
+                "note": "Paper-only data collection; ledger unavailable at build time."}
     cur = c.cursor()
     cur.execute("""
         SELECT COUNT(*), SUM(CASE WHEN pnl>0 THEN 1 ELSE 0 END), ROUND(SUM(pnl),2)
@@ -181,11 +286,21 @@ def main():
     lanes = compute_ledger_lanes()
     kprops = compute_kprops_paper()
 
-    # Build clean trade dataset (reuse promote evidence rows that have pnl).
+    # Build clean trade dataset (entry log), then join settled P&L from the
+    # ledger so settled trades carry real pnl/result instead of empty fields.
     raw = load_jsonl(RESULTS)
+    settled_pnl = load_fg_settled_pnl()
+    # Only join tickers with exactly one entry row: for a ticker traded multiple
+    # times the ledger holds aggregate P&L and attributing it to one entry would
+    # invent data. Genuinely unsettled rows keep empty pnl/result.
+    entry_counts = {}
+    for r in raw:
+        t = r.get("ticker")
+        if t:
+            entry_counts[t] = entry_counts.get(t, 0) + 1
     clean = []
     for r in raw:
-        clean.append({
+        row = {
             "ts": r.get("ts"),
             "ticker": r.get("ticker"),
             "series": r.get("series_ticker"),
@@ -196,7 +311,15 @@ def main():
             "pnl": r.get("pnl"),
             "result": r.get("result"),
             "mode": r.get("mode"),
-        })
+        }
+        t = row["ticker"]
+        if (row["pnl"] is None and t in settled_pnl
+                and entry_counts.get(t) == 1):
+            pnl = settled_pnl[t]
+            row["pnl"] = pnl
+            if not row["result"]:
+                row["result"] = "win" if pnl > 0 else "loss"
+        clean.append(row)
     with open(os.path.join(DIST, "trades.json"), "w") as f:
         json.dump(clean, f, indent=2)
     with open(os.path.join(DIST, "trades.csv"), "w", newline="") as f:
@@ -208,6 +331,11 @@ def main():
             w.writerow(row)
 
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    # Live Kalshi cash from the ledger balance snapshot when available.
+    # Fallback: last operator-verified figure ($3.11), kept only for when the
+    # ledger is unavailable or has no balance table.
+    cash = compute_cash_usd()
+    cash_str = f"${cash:.2f}" if cash is not None else "$3.11"
 
     # --- HTML ---
     fg_rows = "".join(
@@ -215,9 +343,15 @@ def main():
         f"<td>{round(v['w']/v['n']*100,1) if v['n'] else 0}%</td></tr>"
         for d, v in fg["per_day"].items()
     )
+    def _opt(v, fmt):
+        return fmt.format(v) if v is not None else "—"
     lane_rows = "".join(
         f"<tr><td>{html.escape(str(l['strategy']))}</td><td>{l['n']}</td>"
-        f"<td>{l['wins']}</td><td>{l['wr_pct']}%</td><td>${l['pnl_usd']}</td></tr>"
+        f"<td>{l['wins']}</td><td>{l['wr_pct']}%</td>"
+        f"<td class=\"{'good' if l['pnl_usd']>=0 else 'bad'}\">${l['pnl_usd']}</td>"
+        f"<td class=\"{'good' if l['ev_usd']>=0 else 'bad'}\">${l['ev_usd']}</td>"
+        f"<td>{_opt(l['roi_pct'], '{}%')}</td>"
+        f"<td>{_opt(l['fees_usd'], '${}')}</td></tr>"
         for l in lanes if "error" not in l
     )
     corpus_note = ""
@@ -276,7 +410,7 @@ def main():
   bid with <code>post_only=true</code> (maker orders, $0 maker fee on KXMVE* quadratic fee type),
   collecting the structural edge without directional risk on the favorite.</p>
   <p><strong>Status.</strong> Paper-collected edge validated, then promoted LIVE (operator grant
-  2026-08-14). Currently <span class="warn">capital-constrained at $3.11 Kalshi cash</span> — live
+  2026-08-14). Currently <span class="warn">capital-constrained at {cash_str} Kalshi cash</span> — live
   orders are placed but server-rejected until funded. This is the single hard bottleneck to scaling.</p>
   {corpus_note}
 </div>
@@ -288,7 +422,7 @@ def main():
 
 <div class="card">
   <h2>Canonical ledger — all lanes (settlement counts)</h2>
-  <table><tr><th>Lane</th><th>Settled</th><th>Wins</th><th>WR</th><th>Net P&amp;L</th></tr>{lane_rows}</table>
+  <table><tr><th>Lane</th><th>Settled</th><th>Wins</th><th>WR</th><th>Net P&amp;L</th><th>EV/trade</th><th>ROI</th><th>Fees</th></tr>{lane_rows}</table>
   <p style="color:#888;font-size:0.82rem">Source: <code>~/.hermes/trading/ledger_v2.db</code> (canonical settlement truth).</p>
 </div>
 

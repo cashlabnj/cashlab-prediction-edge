@@ -6,3 +6,6 @@ credentials/
 .DS_Store
 dist/*.html
 # keep generated data, ignore the html render artifact
+# 42MB generated corpus — rebuild via dataset/build_dataset.py, don't track in git.
+# If previously committed, untrack once with: git rm --cached data/settled_markets.csv
+data/settled_markets.csv
