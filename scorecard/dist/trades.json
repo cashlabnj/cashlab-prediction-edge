@@ -31,8 +31,8 @@
     "side": "no",
     "entry_price_c": 72.0,
     "settle_rate": 0.8564,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.59,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -43,8 +43,8 @@
     "side": "no",
     "entry_price_c": 80.5,
     "settle_rate": 0.9267,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.38,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -55,8 +55,8 @@
     "side": "no",
     "entry_price_c": 75.0,
     "settle_rate": 0.8788,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -67,8 +67,8 @@
     "side": "no",
     "entry_price_c": 70.0,
     "settle_rate": 0.8564,
-    "pnl": null,
-    "result": null,
+    "pnl": 4.14,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -91,8 +91,8 @@
     "side": "no",
     "entry_price_c": 61.1,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.154,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -103,8 +103,8 @@
     "side": "no",
     "entry_price_c": 51.4,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.144,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -127,8 +127,8 @@
     "side": "no",
     "entry_price_c": 61.9,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.974,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -139,8 +139,8 @@
     "side": "no",
     "entry_price_c": 60.9,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.186,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -175,8 +175,8 @@
     "side": "no",
     "entry_price_c": 51.4,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.144,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -187,8 +187,8 @@
     "side": "no",
     "entry_price_c": 65.2,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.16,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -199,8 +199,8 @@
     "side": "no",
     "entry_price_c": 65.4,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.682,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -223,8 +223,8 @@
     "side": "no",
     "entry_price_c": 64.3,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.285,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -259,8 +259,8 @@
     "side": "no",
     "entry_price_c": 55.0,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.02,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -283,8 +283,8 @@
     "side": "no",
     "entry_price_c": 76.0,
     "settle_rate": 0.8788,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.07,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -295,8 +295,8 @@
     "side": "no",
     "entry_price_c": 81.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.24,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -307,8 +307,8 @@
     "side": "no",
     "entry_price_c": 61.8,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.042,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -319,8 +319,8 @@
     "side": "no",
     "entry_price_c": 53.2,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.656,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -331,8 +331,8 @@
     "side": "no",
     "entry_price_c": 54.6,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.908,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -343,8 +343,8 @@
     "side": "no",
     "entry_price_c": 62.1,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.994,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -367,8 +367,8 @@
     "side": "no",
     "entry_price_c": 62.5,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.93,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -379,8 +379,8 @@
     "side": "no",
     "entry_price_c": 64.3,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.347,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -403,8 +403,8 @@
     "side": "no",
     "entry_price_c": 51.6,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.106,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -415,8 +415,8 @@
     "side": "no",
     "entry_price_c": 63.4,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.42,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -427,8 +427,8 @@
     "side": "no",
     "entry_price_c": 50.0,
     "settle_rate": 0.7182,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.91,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -439,8 +439,8 @@
     "side": "no",
     "entry_price_c": 61.6,
     "settle_rate": 0.819,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.074,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -463,8 +463,8 @@
     "side": "no",
     "entry_price_c": 83.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.01,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -475,8 +475,8 @@
     "side": "no",
     "entry_price_c": 96.0,
     "settle_rate": 0.9959,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.39,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -487,8 +487,8 @@
     "side": "no",
     "entry_price_c": 40.6,
     "settle_rate": 0.5968,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.762,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -511,8 +511,8 @@
     "side": "no",
     "entry_price_c": 40.3,
     "settle_rate": 0.5925,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.771,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -523,8 +523,8 @@
     "side": "no",
     "entry_price_c": 51.4,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.144,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -535,8 +535,8 @@
     "side": "no",
     "entry_price_c": 51.6,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.106,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -547,8 +547,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.33,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -559,8 +559,8 @@
     "side": "no",
     "entry_price_c": 50.8,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.742,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -571,8 +571,8 @@
     "side": "no",
     "entry_price_c": 61.9,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.026,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -595,8 +595,8 @@
     "side": "no",
     "entry_price_c": 53.7,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.254,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -607,8 +607,8 @@
     "side": "no",
     "entry_price_c": 62.5,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.93,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -667,8 +667,8 @@
     "side": "no",
     "entry_price_c": 71.4,
     "settle_rate": 0.8623,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.276,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -679,8 +679,8 @@
     "side": "no",
     "entry_price_c": 62.4,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.946,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -703,8 +703,8 @@
     "side": "no",
     "entry_price_c": 41.1,
     "settle_rate": 0.5925,
-    "pnl": null,
-    "result": null,
+    "pnl": 14.026,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -715,8 +715,8 @@
     "side": "no",
     "entry_price_c": 60.6,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.234,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -739,8 +739,8 @@
     "side": "no",
     "entry_price_c": 52.2,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.992,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -751,8 +751,8 @@
     "side": "no",
     "entry_price_c": 78.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.6,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -763,8 +763,8 @@
     "side": "no",
     "entry_price_c": 87.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -775,8 +775,8 @@
     "side": "no",
     "entry_price_c": 61.6,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.926,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -799,8 +799,8 @@
     "side": "no",
     "entry_price_c": 61.4,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.106,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -811,8 +811,8 @@
     "side": "no",
     "entry_price_c": 50.4,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.334,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -823,8 +823,8 @@
     "side": "no",
     "entry_price_c": 52.0,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.95,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -847,8 +847,8 @@
     "side": "no",
     "entry_price_c": 61.7,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.058,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -859,8 +859,8 @@
     "side": "no",
     "entry_price_c": 50.4,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.334,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -883,8 +883,8 @@
     "side": "no",
     "entry_price_c": 51.3,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.163,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -919,8 +919,8 @@
     "side": "no",
     "entry_price_c": 61.9,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.974,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -943,8 +943,8 @@
     "side": "no",
     "entry_price_c": 62.1,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.994,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -955,8 +955,8 @@
     "side": "no",
     "entry_price_c": 62.2,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.978,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -967,8 +967,8 @@
     "side": "no",
     "entry_price_c": 52.3,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.973,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -979,8 +979,8 @@
     "side": "no",
     "entry_price_c": 62.8,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.51,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -991,8 +991,8 @@
     "side": "no",
     "entry_price_c": 77.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.28,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1003,8 +1003,8 @@
     "side": "no",
     "entry_price_c": 51.2,
     "settle_rate": 0.709,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.182,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1027,8 +1027,8 @@
     "side": "no",
     "entry_price_c": 50.0,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.91,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1039,8 +1039,8 @@
     "side": "no",
     "entry_price_c": 52.1,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.011,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1051,8 +1051,8 @@
     "side": "no",
     "entry_price_c": 61.7,
     "settle_rate": 0.8098,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.058,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1063,8 +1063,8 @@
     "side": "no",
     "entry_price_c": 82.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.12,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1075,8 +1075,8 @@
     "side": "no",
     "entry_price_c": 52.1,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.469,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1087,8 +1087,8 @@
     "side": "no",
     "entry_price_c": 50.8,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.258,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1111,8 +1111,8 @@
     "side": "no",
     "entry_price_c": 62.3,
     "settle_rate": 0.8098,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.962,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1135,8 +1135,8 @@
     "side": "no",
     "entry_price_c": 40.6,
     "settle_rate": 0.5905,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.854,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1147,8 +1147,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.8098,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.17,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1183,8 +1183,8 @@
     "side": "no",
     "entry_price_c": 54.1,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.449,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1195,8 +1195,8 @@
     "side": "no",
     "entry_price_c": 50.2,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.372,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1207,8 +1207,8 @@
     "side": "no",
     "entry_price_c": 63.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.48,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1219,8 +1219,8 @@
     "side": "no",
     "entry_price_c": 64.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.33,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1231,8 +1231,8 @@
     "side": "no",
     "entry_price_c": 66.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.02,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1267,8 +1267,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.8098,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.33,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1303,8 +1303,8 @@
     "side": "no",
     "entry_price_c": 50.0,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.91,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1339,8 +1339,8 @@
     "side": "no",
     "entry_price_c": 50.2,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 9.372,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1363,8 +1363,8 @@
     "side": "no",
     "entry_price_c": 50.7,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.459,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1411,8 +1411,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.17,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1423,8 +1423,8 @@
     "side": "no",
     "entry_price_c": 52.3,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.973,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1435,8 +1435,8 @@
     "side": "no",
     "entry_price_c": 96.0,
     "settle_rate": 0.9963,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.39,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1447,8 +1447,8 @@
     "side": "no",
     "entry_price_c": 54.2,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.164,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1459,8 +1459,8 @@
     "side": "no",
     "entry_price_c": 55.6,
     "settle_rate": 0.7061,
-    "pnl": null,
-    "result": null,
+    "pnl": -0.566,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1483,8 +1483,8 @@
     "side": "no",
     "entry_price_c": 67.1,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.266,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1495,8 +1495,8 @@
     "side": "no",
     "entry_price_c": 75.1,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.498,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1507,8 +1507,8 @@
     "side": "no",
     "entry_price_c": 72.0,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": -1.44,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1519,8 +1519,8 @@
     "side": "no",
     "entry_price_c": 68.2,
     "settle_rate": 0.811,
-    "pnl": null,
-    "result": null,
+    "pnl": 4.452,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1579,8 +1579,8 @@
     "side": "no",
     "entry_price_c": 73.9,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.393,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1591,8 +1591,8 @@
     "side": "no",
     "entry_price_c": 73.1,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.497,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1603,8 +1603,8 @@
     "side": "no",
     "entry_price_c": 96.9,
     "settle_rate": 0.9953,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.31,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1615,8 +1615,8 @@
     "side": "no",
     "entry_price_c": 58.6,
     "settle_rate": 0.7021,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.038,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1627,8 +1627,8 @@
     "side": "no",
     "entry_price_c": 92.7,
     "settle_rate": 0.9752,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.73,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1639,8 +1639,8 @@
     "side": "no",
     "entry_price_c": 75.7,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.916,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1651,8 +1651,8 @@
     "side": "no",
     "entry_price_c": 78.7,
     "settle_rate": 0.8633,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.426,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1663,8 +1663,8 @@
     "side": "no",
     "entry_price_c": 90.3,
     "settle_rate": 0.9752,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.067,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1675,8 +1675,8 @@
     "side": "no",
     "entry_price_c": 63.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.45,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1687,8 +1687,8 @@
     "side": "no",
     "entry_price_c": 65.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.25,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1699,8 +1699,8 @@
     "side": "no",
     "entry_price_c": 69.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.48,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1711,8 +1711,8 @@
     "side": "no",
     "entry_price_c": 84.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.76,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1723,8 +1723,8 @@
     "side": "no",
     "entry_price_c": 77.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.24,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1735,8 +1735,8 @@
     "side": "no",
     "entry_price_c": 79.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.68,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1747,8 +1747,8 @@
     "side": "no",
     "entry_price_c": 69.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 4.34,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1759,8 +1759,8 @@
     "side": "no",
     "entry_price_c": 66.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.56,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1771,8 +1771,8 @@
     "side": "no",
     "entry_price_c": 67.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.38,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1783,8 +1783,8 @@
     "side": "no",
     "entry_price_c": 80.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1795,8 +1795,8 @@
     "side": "no",
     "entry_price_c": 88.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.32,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1807,8 +1807,8 @@
     "side": "no",
     "entry_price_c": 69.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 4.65,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1819,8 +1819,8 @@
     "side": "no",
     "entry_price_c": 81.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.38,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1831,8 +1831,8 @@
     "side": "no",
     "entry_price_c": 85.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.65,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1843,8 +1843,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1855,8 +1855,8 @@
     "side": "no",
     "entry_price_c": 96.0,
     "settle_rate": 0.9964,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1867,8 +1867,8 @@
     "side": "no",
     "entry_price_c": 91.0,
     "settle_rate": 0.9444,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.9,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1879,8 +1879,8 @@
     "side": "no",
     "entry_price_c": 88.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.56,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1891,8 +1891,8 @@
     "side": "no",
     "entry_price_c": 66.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.56,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1903,8 +1903,8 @@
     "side": "no",
     "entry_price_c": 95.0,
     "settle_rate": 0.9964,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.5,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1915,8 +1915,8 @@
     "side": "no",
     "entry_price_c": 85.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.65,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1927,8 +1927,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1939,8 +1939,8 @@
     "side": "no",
     "entry_price_c": 83.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.21,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1951,8 +1951,8 @@
     "side": "no",
     "entry_price_c": 86.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.46,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -1963,8 +1963,8 @@
     "side": "no",
     "entry_price_c": 92.0,
     "settle_rate": 0.9444,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1975,8 +1975,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1987,8 +1987,8 @@
     "side": "no",
     "entry_price_c": 75.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.25,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -1999,8 +1999,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.2,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2011,8 +2011,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -12.0,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2023,8 +2023,8 @@
     "side": "no",
     "entry_price_c": 83.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.04,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2035,8 +2035,8 @@
     "side": "no",
     "entry_price_c": 64.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.76,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2047,8 +2047,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2059,8 +2059,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2071,8 +2071,8 @@
     "side": "no",
     "entry_price_c": 79.0,
     "settle_rate": 0.8824,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.52,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2083,8 +2083,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2095,8 +2095,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -2.4,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2107,8 +2107,8 @@
     "side": "no",
     "entry_price_c": 87.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.43,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2119,8 +2119,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2131,8 +2131,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2143,8 +2143,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.63,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2155,8 +2155,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2167,8 +2167,8 @@
     "side": "no",
     "entry_price_c": 68.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 4.48,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2179,8 +2179,8 @@
     "side": "no",
     "entry_price_c": 81.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.28,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2191,8 +2191,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2203,8 +2203,8 @@
     "side": "no",
     "entry_price_c": 62.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -3.68,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2215,8 +2215,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -11.4,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2227,8 +2227,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.63,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2239,8 +2239,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2251,8 +2251,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2263,8 +2263,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.17,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2275,8 +2275,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.6,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2287,8 +2287,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2299,8 +2299,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2311,8 +2311,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 5.85,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2323,8 +2323,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.24,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2335,8 +2335,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2347,8 +2347,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2359,8 +2359,8 @@
     "side": "no",
     "entry_price_c": 87.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.26,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2371,8 +2371,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 7.2,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2383,8 +2383,8 @@
     "side": "no",
     "entry_price_c": 84.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.24,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2395,8 +2395,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -1.2,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2407,8 +2407,8 @@
     "side": "no",
     "entry_price_c": 63.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.49,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2419,8 +2419,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2431,8 +2431,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2443,8 +2443,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2455,8 +2455,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2467,8 +2467,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2479,8 +2479,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 2.0,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2491,8 +2491,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.4,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2503,8 +2503,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.37,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2515,8 +2515,8 @@
     "side": "no",
     "entry_price_c": 62.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.48,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2527,8 +2527,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2539,8 +2539,8 @@
     "side": "no",
     "entry_price_c": 85.0,
     "settle_rate": 0.9241,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2551,8 +2551,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.78,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2563,8 +2563,8 @@
     "side": "no",
     "entry_price_c": 45.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 3.8,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2575,8 +2575,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.6333,
-    "pnl": null,
-    "result": null,
+    "pnl": -1.2,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2587,8 +2587,8 @@
     "side": "no",
     "entry_price_c": 46.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 11.88,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2599,8 +2599,8 @@
     "side": "no",
     "entry_price_c": 53.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.93,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2611,8 +2611,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -1.6,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2623,8 +2623,8 @@
     "side": "no",
     "entry_price_c": 46.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.59,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2635,8 +2635,8 @@
     "side": "no",
     "entry_price_c": 49.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.29,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2647,8 +2647,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.24,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2659,8 +2659,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -1.22,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2671,8 +2671,8 @@
     "side": "no",
     "entry_price_c": 55.0,
     "settle_rate": 0.6333,
-    "pnl": null,
-    "result": null,
+    "pnl": 8.1,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2683,8 +2683,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.24,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2695,8 +2695,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.24,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2707,8 +2707,8 @@
     "side": "no",
     "entry_price_c": 45.0,
     "settle_rate": 0.6333,
-    "pnl": null,
-    "result": null,
+    "pnl": -0.45,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2719,8 +2719,8 @@
     "side": "no",
     "entry_price_c": 42.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 13.92,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2731,8 +2731,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.6333,
-    "pnl": null,
-    "result": null,
+    "pnl": -0.4,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2743,8 +2743,8 @@
     "side": "no",
     "entry_price_c": 47.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.8,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2755,8 +2755,8 @@
     "side": "no",
     "entry_price_c": 64.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.35,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2767,8 +2767,8 @@
     "side": "no",
     "entry_price_c": 43.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 13.68,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2779,8 +2779,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.39,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2791,8 +2791,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.0,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2803,8 +2803,8 @@
     "side": "no",
     "entry_price_c": 41.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.84,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2815,8 +2815,8 @@
     "side": "no",
     "entry_price_c": 43.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 1.71,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2827,8 +2827,8 @@
     "side": "no",
     "entry_price_c": 46.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": -10.06,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2839,8 +2839,8 @@
     "side": "no",
     "entry_price_c": 46.0,
     "settle_rate": 0.6333,
-    "pnl": null,
-    "result": null,
+    "pnl": 0.54,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2851,8 +2851,8 @@
     "side": "no",
     "entry_price_c": 42.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 13.94,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2863,8 +2863,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.33,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2875,8 +2875,8 @@
     "side": "no",
     "entry_price_c": 60.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": 6.33,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2887,8 +2887,8 @@
     "side": "no",
     "entry_price_c": 61.0,
     "settle_rate": 0.9677,
-    "pnl": null,
-    "result": null,
+    "pnl": -9.83,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2899,8 +2899,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 15.6,
+    "result": "win",
     "mode": "paper"
   },
   {
@@ -2911,8 +2911,8 @@
     "side": "no",
     "entry_price_c": 52.0,
     "settle_rate": 0.6154,
-    "pnl": null,
-    "result": null,
+    "pnl": -0.52,
+    "result": "loss",
     "mode": "paper"
   },
   {
@@ -2923,8 +2923,8 @@
     "side": "no",
     "entry_price_c": 40.0,
     "settle_rate": 0.8214,
-    "pnl": null,
-    "result": null,
+    "pnl": 15.0,
+    "result": "win",
     "mode": "paper"
   }
 ]
