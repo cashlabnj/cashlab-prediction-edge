@@ -2854,5 +2854,77 @@
     "pnl": null,
     "result": null,
     "mode": "paper"
+  },
+  {
+    "ts": "2026-08-29T03:16:16+00:00",
+    "ticker": "KXMLBGAME-26AUG301340SDTB-SD",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-29T04:20:11+00:00",
+    "ticker": "KXMLBGAME-26AUG301340KCCLE-KC",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-29T04:20:11+00:00",
+    "ticker": "KXMLBGAME-26AUG301410TEXMIL-TEX",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-30T02:47:13+00:00",
+    "ticker": "KXMLBKS-26AUG301337SEATOR-SEALGILBERT36-5",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 40.0,
+    "settle_rate": 0.8214,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-31T00:50:10+00:00",
+    "ticker": "KXMLBTOTAL-26AUG301920CINCHC-8",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 52.0,
+    "settle_rate": 0.6154,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-30T05:59:56+00:00",
+    "ticker": "KXMLBKS-26AUG301920CINCHC-CHCSIMANAGA18-6",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 40.0,
+    "settle_rate": 0.8214,
+    "pnl": null,
+    "result": null,
+    "mode": "paper"
   }
 ]

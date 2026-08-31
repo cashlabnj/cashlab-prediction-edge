@@ -10,9 +10,9 @@
 • +$497.24 net P&L
 Live-approved, currently capital-constrained (≈$3 cash), so scale is blocked by deposits, not by edge.
 
-4/ The bias, measured in real data: across 223,450 actually-settled Kalshi markets (2026-05-19 → 2026-08-23), the NO side settles at 75.7% overall. In the 0–10¢ price bucket? 99.24% NO.
+4/ The bias, measured in real data: across 243,956 actually-settled Kalshi markets (2026-05-19 → 2026-08-30), the NO side settles at 76.4% overall. In the 0–10¢ price bucket? 99.28% NO.
 
-5/ That's the favorite-longshot bias, empirically confirmed in 223,450 real outcomes — not a theory, not a backtest. The longshot (YES) side is systematically overpriced.
+5/ That's the favorite-longshot bias, empirically confirmed in 243,956 real outcomes — not a theory, not a backtest. The longshot (YES) side is systematically overpriced.
 
 6/ Full transparency: live scorecard + the 194k-market dataset are public.
 📊 https://cashlabnj.github.io/cashlab-prediction-edge/
