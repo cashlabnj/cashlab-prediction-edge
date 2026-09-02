@@ -2998,5 +2998,53 @@
     "pnl": 0.56,
     "result": "win",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-01T02:29:17+00:00",
+    "ticker": "KXMLBGAME-26SEP011840TORCLE-TOR",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.17,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-01T06:46:05+00:00",
+    "ticker": "KXMLBGAME-26SEP011845ATLWSH-WSH",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": -1.82,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-08-31T00:50:10+00:00",
+    "ticker": "KXMLBGAME-26SEP012138NYYLAA-LAA",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.33,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-02T03:07:39+00:00",
+    "ticker": "KXMLBTOTAL-26SEP012138NYYLAA-10",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 40.0,
+    "settle_rate": 0.6154,
+    "pnl": -1.6,
+    "result": "loss",
+    "mode": "paper"
   }
 ]
