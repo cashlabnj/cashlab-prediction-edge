@@ -3130,5 +3130,29 @@
     "pnl": 6.33,
     "result": "win",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-01T01:25:23+00:00",
+    "ticker": "KXMLBGAME-26SEP031235SFPIT-SF",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.33,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-03T05:54:40+00:00",
+    "ticker": "KXMLBGAME-26SEP032210STLLAD-STL",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 72.0,
+    "settle_rate": 0.8824,
+    "pnl": 0.27,
+    "result": "win",
+    "mode": "paper"
   }
 ]
