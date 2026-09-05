@@ -3154,5 +3154,77 @@
     "pnl": 0.27,
     "result": "win",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-02T02:03:23+00:00",
+    "ticker": "KXMLBGAME-26SEP041910SFNYM-SF",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.17,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-02T06:20:29+00:00",
+    "ticker": "KXMLBGAME-26SEP041845LAAPIT-LAA",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 62.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.01,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-03T20:19:32+00:00",
+    "ticker": "KXMLBGAME-26SEP041810MILCIN-CIN",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.33,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-05T03:24:42+00:00",
+    "ticker": "KXMLBTOTAL-26SEP042140NYYSD-4",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 43.0,
+    "settle_rate": 0.6,
+    "pnl": -9.89,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-02T06:20:29+00:00",
+    "ticker": "KXMLBGAME-26SEP042210ATHSEA-ATH",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 62.0,
+    "settle_rate": 0.9677,
+    "pnl": -1.25,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-05T03:24:42+00:00",
+    "ticker": "KXMLBTOTAL-26SEP042210ATHSEA-14",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 44.0,
+    "settle_rate": 0.6,
+    "pnl": 12.32,
+    "result": "win",
+    "mode": "paper"
   }
 ]
