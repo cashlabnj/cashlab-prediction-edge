@@ -5,9 +5,9 @@
 2/ The edge: a *favorite-longshot bias fade* on Kalshi Exotics. Buy NO at the bid on longshot-heavy parlay markets. Kalshi charges $0 maker fee on these — the structural overpricing of the YES side is pure edge.
 
 3/ Verified results (canonical ledger, not backtest):
-• 433 settled trades
-• 66.7% win rate
-• +$538.30 net P&L
+• 437 settled trades
+• 66.6% win rate
+• +$534.79 net P&L
 Live-approved, currently capital-constrained (≈$3 cash), so scale is blocked by deposits, not by edge.
 
 4/ The bias, measured in real data: across 274,405 actually-settled Kalshi markets (2026-05-19 → 2026-09-06), the NO side settles at 76.3% overall. In the 0–10¢ price bucket? 99.34% NO.

@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-09-09T10:02:19.152552+00:00Z",
+    "generated_at": "2026-09-10T10:00:24.965805+00:00Z",
     "source_file": "settled_markets.jsonl (agent's private Kalshi settlement corpus)",
     "n_markets": 274405,
     "n_series": 298,
