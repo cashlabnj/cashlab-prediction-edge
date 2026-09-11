@@ -3634,5 +3634,53 @@
     "pnl": 0.59,
     "result": "win",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-10T14:00:24+00:00",
+    "ticker": "KXMLBKS-26SEP101215TBATL-ATLMPREZ33-3",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 40.0,
+    "settle_rate": 0.5294,
+    "pnl": -0.4,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-07T21:50:10+00:00",
+    "ticker": "KXMLBGAME-26SEP101305HOUPHI-HOU",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": -9.83,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-10T20:22:21+00:00",
+    "ticker": "KXMLBTOTAL-26SEP101610TEXSEA-6",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 45.0,
+    "settle_rate": 0.6,
+    "pnl": -0.45,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-10T23:33:19+00:00",
+    "ticker": "KXMLBTOTAL-26SEP101940PITCWS-8",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 48.0,
+    "settle_rate": 0.6,
+    "pnl": 0.52,
+    "result": "win",
+    "mode": "paper"
   }
 ]
