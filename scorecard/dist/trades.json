@@ -1483,7 +1483,7 @@
     "side": "no",
     "entry_price_c": 67.1,
     "settle_rate": 0.811,
-    "pnl": 3.266,
+    "pnl": 3.936,
     "result": "win",
     "mode": "paper"
   },
@@ -1507,7 +1507,7 @@
     "side": "no",
     "entry_price_c": 72.0,
     "settle_rate": 0.8633,
-    "pnl": -1.44,
+    "pnl": -0.72,
     "result": "loss",
     "mode": "paper"
   },
@@ -3753,6 +3753,90 @@
     "settle_rate": 0.9677,
     "pnl": -9.67,
     "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-12T02:18:51+00:00",
+    "ticker": "KXMLBGAME-26SEP121335NYMNYY-NYM",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": -9.83,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-12T05:32:05+00:00",
+    "ticker": "KXMLBTOTAL-26SEP121420PITCHC-9",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 45.0,
+    "settle_rate": 0.6,
+    "pnl": 11.55,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-10T00:07:50+00:00",
+    "ticker": "KXMLBGAME-26SEP121610KCBOS-KC",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.17,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-12T08:44:18+00:00",
+    "ticker": "KXMLBKS-26SEP121810HOUTB-TBISEYMOUR61-6",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 42.0,
+    "settle_rate": 0.5294,
+    "pnl": -0.42,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-12T03:23:13+00:00",
+    "ticker": "KXMLBGAME-26SEP121910CINMIL-CIN",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 62.0,
+    "settle_rate": 0.9677,
+    "pnl": 0.75,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-13T01:46:17+00:00",
+    "ticker": "KXMLBTOTAL-26SEP122140SEAATH-11",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 43.0,
+    "settle_rate": 0.6,
+    "pnl": -0.43,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-12T02:18:51+00:00",
+    "ticker": "KXMLBGAME-26SEP122140SEAATH-ATH",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9677,
+    "pnl": 6.17,
+    "result": "win",
     "mode": "paper"
   }
 ]
