@@ -13,7 +13,8 @@ python3 content/build_content.py
 # added here. One-time migration (run manually, not from this script):
 #   git rm --cached data/settled_markets.csv
 echo "NOTE: data/settled_markets.csv is gitignored; if still tracked, run: git rm --cached data/settled_markets.csv" >&2
-git add docs/index.html scorecard/dist/trades.json scorecard/dist/trades.csv \
+git add docs/index.html scorecard/dist/scorecard.html \
+        scorecard/dist/trades.json scorecard/dist/trades.csv \
         data/DATASET.md data/favorite_longshot_analysis.json content/
 if git diff --cached --quiet; then
   echo "NO_CHANGES"
