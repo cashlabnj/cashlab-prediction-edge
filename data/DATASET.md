@@ -4,10 +4,10 @@
 real Kalshi prediction-market settlements, scraped from public market endpoints.
 
 ## Provenance
-- Markets: 274,405 settled
-- Series: 298 (Kalshi series tickers)
-- Date range: 2026-05-19 to 2026-09-06
-- Total notional volume (volume_fp): 46,568,580,175
+- Markets: 306,598 settled
+- Series: 311 (Kalshi series tickers)
+- Date range: 2026-05-19 to 2026-09-13
+- Total notional volume (volume_fp): 54,606,567,874
 - `result` = venue settlement outcome (yes/no), the ground truth.
 
 ## Files

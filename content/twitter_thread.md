@@ -5,14 +5,14 @@
 2/ The edge: a *favorite-longshot bias fade* on Kalshi Exotics. Buy NO at the bid on longshot-heavy parlay markets. Kalshi charges $0 maker fee on these — the structural overpricing of the YES side is pure edge.
 
 3/ Verified results (canonical ledger, not backtest):
-• 454 settled trades
-• 66.1% win rate
-• +$534.34 net P&L
+• 461 settled trades
+• 65.9% win rate
+• +$526.34 net P&L
 Live-approved, currently capital-constrained (≈$3 cash), so scale is blocked by deposits, not by edge.
 
-4/ The bias, measured in real data: across 274,405 actually-settled Kalshi markets (2026-05-19 → 2026-09-06), the NO side settles at 76.3% overall. In the 0–10¢ price bucket? 99.34% NO.
+4/ The bias, measured in real data: across 306,598 actually-settled Kalshi markets (2026-05-19 → 2026-09-13), the NO side settles at 76.3% overall. In the 0–10¢ price bucket? 99.39% NO.
 
-5/ That's the favorite-longshot bias, empirically confirmed in 274,405 real outcomes — not a theory, not a backtest. The longshot (YES) side is systematically overpriced.
+5/ That's the favorite-longshot bias, empirically confirmed in 306,598 real outcomes — not a theory, not a backtest. The longshot (YES) side is systematically overpriced.
 
 6/ Full transparency: live scorecard + the 194k-market dataset are public.
 📊 https://cashlabnj.github.io/cashlab-prediction-edge/
