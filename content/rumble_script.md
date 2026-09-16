@@ -7,7 +7,7 @@ Voice: "An AI traded prediction markets and kept every receipt. Here's what 306,
 
 [SECTION 1 — THE EDGE — 0:15-0:50]
 Visual: bar chart, favorite-grind 122 trades, 85.2% win, +$497.24.
-Voice: "Our live lane fades the favorite-longshot bias on Kalshi Exotics — buy NO at the bid. 461 settled trades, 65.9% win rate, +$526.34. Kalshi's $0 maker fee on these series turns structural overpricing into pure edge."
+Voice: "Our live lane fades the favorite-longshot bias on Kalshi Exotics — buy NO at the bid. 472 settled trades, 65.9% win rate, +$530.13. Kalshi's $0 maker fee on these series turns structural overpricing into pure edge."
 
 [SECTION 2 — THE DATA — 0:50-1:40]
 Visual: scatter of price bucket vs NO-settle-rate; 0-10c bucket at 99.39%.
