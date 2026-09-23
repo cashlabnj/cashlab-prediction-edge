@@ -4522,5 +4522,77 @@
     "pnl": 5.48,
     "result": "win",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-22T16:30:00+00:00",
+    "ticker": "KXMLBKS-26SEP212145MINSF-SFBTIDWELL46-5",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.78,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-21T16:30:03+00:00",
+    "ticker": "KXMLBGAME-26SEP221915CINATL-CIN",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 63.0,
+    "settle_rate": 0.9697,
+    "pnl": -9.52,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-22T16:30:00+00:00",
+    "ticker": "KXMLBKS-26SEP221845CLEBOS-BOSPTOLLE70-6",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 60.0,
+    "settle_rate": 0.9697,
+    "pnl": 6.4,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-21T16:30:03+00:00",
+    "ticker": "KXMLBGAME-26SEP222040AZCOL-COL",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 62.0,
+    "settle_rate": 0.9697,
+    "pnl": 6.01,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-20T21:05:37+00:00",
+    "ticker": "KXMLBGAME-26SEP221940MIACHC-MIA",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 62.0,
+    "settle_rate": 0.9697,
+    "pnl": -9.99,
+    "result": "loss",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-20T05:01:35+00:00",
+    "ticker": "KXMLBGAME-26SEP222210SDLAD-SD",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9688,
+    "pnl": 6.17,
+    "result": "win",
+    "mode": "paper"
   }
 ]
