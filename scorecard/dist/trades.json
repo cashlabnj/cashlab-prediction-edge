@@ -4942,5 +4942,65 @@
     "pnl": -0.64,
     "result": "loss",
     "mode": "paper"
+  },
+  {
+    "ts": "2026-09-27T16:30:00+00:00",
+    "ticker": "KXMLBKS-26SEP261235NYMWSH-WSHCEARLY71-4",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 70.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.3,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-27T16:30:00+00:00",
+    "ticker": "KXMLBTOTAL-26SEP261605LADSF-9",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 61.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.39,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-27T16:30:00+00:00",
+    "ticker": "KXMLBGAME-26SEP271505TBPHI-TB",
+    "series": "KXMLBGAME",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 64.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.35,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-27T16:30:00+00:00",
+    "ticker": "KXMLBTOTAL-26SEP271510ATLMIA-11",
+    "series": "KXMLBTOTAL",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 68.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.32,
+    "result": "win",
+    "mode": "paper"
+  },
+  {
+    "ts": "2026-09-27T16:30:00+00:00",
+    "ticker": "KXMLBKS-26SEP271507CINTOR-CINBWILLIAMSON55-4",
+    "series": "KXMLBKS",
+    "category": "Sports",
+    "side": "no",
+    "entry_price_c": 63.0,
+    "settle_rate": 0.9697,
+    "pnl": 0.37,
+    "result": "win",
+    "mode": "paper"
   }
 ]
